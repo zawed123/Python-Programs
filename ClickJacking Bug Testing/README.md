@@ -4,5 +4,5 @@ Clickjacking is a malicious technique of tricking a user into clicking on someth
 This script test if websites are vulnerable to clickjacking attack and creates a POC
 
 ##Example
- python3 [.py file name] [domain list .txt file] 
- python3 clickjacking.py test.txt 
+python3 [.py file name] [domain list .txt file] 
+python3 clickjacking.py test.txt 
