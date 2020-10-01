@@ -1,5 +1,4 @@
-# https://www.facebook.com/mayankgbrc/posts/2726954114288546
-# Subscribed by Code House
+
 num = int(input("Enter a number: "))
 
 sum = 0
