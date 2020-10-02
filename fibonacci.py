@@ -1,5 +1,4 @@
-https://www.facebook.com/abeer.malhotra.900/posts/965644063920487
-subscribed by codehouse
+
 nterms = int(input("How many terms you want? "))  
 # first two terms  
 n1 = 0  
@@ -21,3 +20,21 @@ else:
        n1 = n2  
        n2 = nth  
        count += 1  
+"""
+def fib(n):
+    a = 0
+    b = 1
+    if n==1:
+        print(a)
+    else:
+        print(a)
+        print(b)
+
+        for i in range(2,n):
+            c = a+b
+            a = b
+            b = c
+            print(c)
+fib(5)
+
+"""
