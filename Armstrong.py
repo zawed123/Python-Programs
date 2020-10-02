@@ -1,3 +1,4 @@
+
 #https://www.facebook.com/kaku.singh.737448/posts/2798848053770688
 #subscribe by Code House
 
@@ -48,3 +49,4 @@ print(isArmstrong(x))
 
 x = 1253
 print(isArmstrong(x)) 
+
