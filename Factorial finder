@@ -1,0 +1,20 @@
+#https://m.facebook.com/story.php?story_fbid=104242468117519&id=100055952980689&refid=52&ref=wizard&_ft_=qid.6878874310347328563%3Amf_story_key.8484161461220959833%3Atop_level_post_id.104242468117519%3Acontent_owner_id_new.100055952980689%3Asrc.22%3Astory_location.112%3Astory_attachment_style.share%3Aview_time.1601612733%3Afilter.h_chr&__tn__=-R
+# Python program to find the factorial of a number provided by the user.
+
+# change the value for a different result
+num = 7
+
+# To take input from the user
+#num = int(input("Enter any number: "))
+
+factorial = 1
+
+# check if the number is negative, positive or zero
+if num < 0:
+   print("Sorry it is prime number, factorial does not exist for negative numbers")
+elif num == 0:
+   print("The factorial of 0 is 1")
+else:
+   for i in range(1,num + 1):
+       factorial = factorial*i
+   print("The factorial of",num,"is",factorial)
