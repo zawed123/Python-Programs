@@ -1,0 +1,20 @@
+num=int(input("enter number"))
+ope=(input("enter operator"))
+num2=int(input("enter num 2"))
+if ope=="*":
+   if num ==1 and num2 ==  5:
+       print("10")
+   else:
+       print(num  * num2)
+elif ope=="/":
+    if num==56 and num2==6:
+        print("4")
+    else:
+        print(num / num2)
+elif ope=="+":
+    if num==56 and num2==9:
+        print("77")
+    else:
+        (num+num2)
+else:
+    print("something gone wrong")
