@@ -1,0 +1,20 @@
+#https://www.facebook.com/100005198139377/posts/1502511503265440/
+#subscribe by code house
+
+f = open("kunjika.txt", "rt")
+print(f.readline(),end=" ")
+print(f.readline())
+print(f.readline())
+# content = f.read()
+
+content = f.read(3)
+print(content)
+
+content = f.read(4)
+print(content)
+
+for line in f:
+    print(line, end="")
+
+
+f.close()

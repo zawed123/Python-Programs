@@ -1,4 +1,3 @@
-# Python Program to Find Factorial of given number 
 
 def factorial(n): 
 	if n < 0: 
