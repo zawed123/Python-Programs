@@ -1,0 +1,5 @@
+# https://m.facebook.com/story.php?story_fbid=365928584777817&id=100040820344131
+# Subscribed by Code House
+
+name = input('What is your name?\n')
+print ('Hi, %s.' % name
