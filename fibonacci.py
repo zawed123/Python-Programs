@@ -1,17 +1,17 @@
 
-# https://www.facebook.com/anisha.sheikh.714/posts/2627834770863645
-# Subscribed by  Dilip Jackson    
-int fib(int n) 
-{ 
-    if (n <= 1) 
-        return n; 
-    return fib(n-1) + fib(n-2); 
-} 
-  
-int main () 
-{ 
-    int n = 9; 
-    cout << fib(n); 
-    getchar(); 
-    return 0; 
-} 
+def fib(n):
+    a = 0
+    b = 1
+    if n==1:
+        print(a)
+    else:
+        print(a)
+        print(b)
+
+        for i in range(2,n):
+            c = a+b
+            a = b
+            b = c
+            print(c)
+fib(5)
+
