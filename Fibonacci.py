@@ -1,5 +1,4 @@
-# https://www.facebook.com/mayankgbrc/posts/2726954114288546
-# Subscribed by Code House
+
 nterms = int(input("How many terms? "))
 
 # first two terms
@@ -21,3 +20,4 @@ else:
        n1 = n2
        n2 = nth
        count += 1
+
