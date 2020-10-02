@@ -1,0 +1,27 @@
+# https://www.facebook.com/harhar.modi.1232/posts/706155836649246
+# Subscribed by Code House
+
+# Linear Search in python
+
+
+
+s = input("Enter a string: ")
+r_s = s[::-1]
+
+temp = ""
+
+# s = 1224
+
+for (i, j) in zip(s, r_s):
+    if i == j:
+      # print(i, end = "")
+        temp += i
+    else:
+        pass
+
+if temp == temp[::-1]:
+    print("Palindrome substring = "+ temp)
+        
+
+
+
