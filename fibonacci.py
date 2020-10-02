@@ -1,3 +1,4 @@
+
 def fib(n):
     a = 0
     b = 1
@@ -13,3 +14,4 @@ def fib(n):
             b = c
             print(c)
 fib(5)
+
