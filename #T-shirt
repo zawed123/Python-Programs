@@ -1,0 +1,24 @@
+from flask
+import false,
+template requate from chatter both
+import chatBot
+from chatterbot.trainerc
+import chatherBot corpostrainer
+
+app = flask(_name_)
+english_bot = cheatBot("chatterbot",
+ storage_adapter =
+ "chatterbot.storage.SQLstar age adapter"
+ )
+
+@app.route("/")
+defhome(): return render_template(
+ "index.html")
+
+@app.route("/get")
+defget_bot_resonase();
+usertext = request.args.get('msg')
+return str(english_bot.get_response(
+ usertext))
+if_name_ ** '_main_';
+app.run {}
